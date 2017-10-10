@@ -1,0 +1,65 @@
+html{
+  background: linear-gradient(
+    to bottom,
+    #eca27b,
+    #17a6ae
+  );
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+  font-weight: normal;
+  font-size: 40px;
+  letter-spacing: 1px;
+  color: White;
+}
+
+.inputSection{
+  margin: 50px 0px;
+  width: 400px;
+}
+
+.inputs{
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  margin-top: 7px;
+}
+
+.AddOption{
+  margin-top: 25px;
+}
+
+h2{
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: White;
+}
+
+.secondInput{
+  margin: 10px 0px;
+  color: White;
+}
+
+button{
+  height: 60px;
+  width: 60px;
+  color: white;
+  font-weight: bold;
+  background-color: #17a6ae;
+  border-radius: 50%;
+  margin-top: 20px;
+  box-shadow: 2px 2px 80px 5px rgba(219,108,68,1);
+}
