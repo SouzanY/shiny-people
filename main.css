@@ -13,13 +13,14 @@ body{
   margin-top: 100px;
   margin-bottom: 100px;
   font-family: 'Ubuntu', sans-serif;
+  color: white
 }
 
 h1{
   font-weight: normal;
   font-size: 40px;
   letter-spacing: 1px;
-  color: White;
+  margin-bottom: 50px;
 }
 
 .inputSection{
@@ -38,28 +39,38 @@ input{
 }
 
 .AddOption{
-  margin-top: 25px;
+  margin-top: 30px;
+}
+
+.resultSection{
+  height:250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
 }
 
 h2{
   font-weight: normal;
   font-size: 20px;
   letter-spacing: 1px;
-  color: White;
 }
 
 .secondInput{
   margin: 10px 0px;
-  color: White;
 }
 
 button{
   height: 60px;
   width: 60px;
-  color: white;
   font-weight: bold;
+  color:white;
   background-color: #17a6ae;
   border-radius: 50%;
   margin-top: 20px;
   box-shadow: 2px 2px 80px 5px rgba(219,108,68,1);
 }
+
+button:focus {
+  outline:0;
+  }
